@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="nopcommerce Regression Suite" verbose="3"  >
+    <parameter name="browser" value="firefox"/>
+
+    <!-- Add listener to generate HTML report -->
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+
+
+
+    </listeners>
+
+    <!-- Define your test cases here -->
+    <test name="RegressionTest" parallel="false" preserve-order = "false" >
+
+        <classes>
+
+
+<!--            <class name="com.tests.SearchProductTests"/>-->
+<!--            <class name="com.tests.SearchProductUsingAutoSuggestTest"/>-->
+<!--            <class name="com.tests.ContactUsTest"/>-->
+            <class name="com.tests.ChangeCurrencyTest"/>
+            <class name="com.tests.AddProductReviewTest"/>
+            <class name="com.tests.GuestCheckOutProductFromCartTest"/>
+<!--            <class name="com.tests.AddProductToCompareTest"/>-->
+<!--            <class name="com.tests.AddProductToShoppingCartTest"/>-->
+<!--            <class name="com.tests.ProductHoverMenu"/>-->
+<!--            <class name="com.tests.AddProductToWishListTest"/>-->
+
+        </classes>
+    </test>
+</suite>
