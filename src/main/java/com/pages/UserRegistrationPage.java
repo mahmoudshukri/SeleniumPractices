@@ -11,6 +11,7 @@ public class UserRegistrationPage extends PageBase {
     private final By passWordTxtBox = By.id("Password");
     private final By confirmPasswordTxtBox = By.id("ConfirmPassword");
     private final By registerBtn = By.id("register-button");
+    private final By continueBtn=By.xpath("//a[normalize-space()='Continue']");
     private final By successMessage = By.xpath("//div[@class='result']");
     private final By myAccountLink = By.cssSelector(".ico-account");
     public UserRegistrationPage(WebDriver driver) {
@@ -27,6 +28,8 @@ public class UserRegistrationPage extends PageBase {
         type(password, passWordTxtBox);
         type(password, confirmPasswordTxtBox);
         click(registerBtn);
+        //click(continueBtn);
+
     }
 
     public String getSuccessfulMessage() {

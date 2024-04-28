@@ -7,6 +7,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 public class LoginPage extends PageBase {
     private final By emailTxtBox = By.id("Email");
     private final By passwordTxtBox = By.id("Password");
+    private final By loginLink=By.xpath("//a[@class='ico-login']");
     private final By loginButton = By.cssSelector("button[class='button-1 login-button']");
     private final By logOutLink = By.cssSelector(".ico-logout");
 
@@ -16,6 +17,7 @@ public class LoginPage extends PageBase {
     }
 
     public void userLogin(String email, String password) {
+        click(loginLink);
         type(email, emailTxtBox);
         type(password, passwordTxtBox);
         waitForElementVisibility(loginButton);

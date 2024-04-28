@@ -1,6 +1,7 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
+    <inspection_tool class="NewClassNamingConvention" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="ThrowablePrintStackTrace" enabled="true" level="WARNING" enabled_by_default="true">
       <scope name="Tests" level="WARNING" enabled="false" />
     </inspection_tool>
@@ -9,15 +10,27 @@
       <option name="ignoredModules">
         <list>
           <option value="seleinumTAF" />
+          <option value="seleinumTAF" />
+          <option value="seleinumTAF" />
+          <option value="seleinumTAF" />
+          <option value="seleinumTAF" />
         </list>
       </option>
       <option name="ignoredPackages">
         <list>
           <option value="org.webjars:jquery:3.6.1" />
+          <option value="commons-collections:commons-collections:3.2.2" />
+          <option value="org.apache.commons:commons-compress:1.19" />
+          <option value="org.yaml:snakeyaml:1.23" />
+          <option value="junit:junit:4.10" />
         </list>
       </option>
       <option name="ignoredReasons">
         <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
           <option value="Not exploitable" />
         </list>
       </option>

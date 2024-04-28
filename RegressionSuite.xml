@@ -15,13 +15,13 @@
 
         <classes>
 
-
+            <class name="com.tests.DataDriven.userRegistrationWithDdtAndDataProvider"/>
 <!--            <class name="com.tests.SearchProductTests"/>-->
 <!--            <class name="com.tests.SearchProductUsingAutoSuggestTest"/>-->
 <!--            <class name="com.tests.ContactUsTest"/>-->
-            <class name="com.tests.ChangeCurrencyTest"/>
-            <class name="com.tests.AddProductReviewTest"/>
-            <class name="com.tests.GuestCheckOutProductFromCartTest"/>
+<!--            <class name="com.tests.ChangeCurrencyTest"/>-->
+<!--            <class name="com.tests.AddProductReviewTest"/>-->
+<!--            <class name="com.tests.GuestCheckOutProductFromCartTest"/>-->
 <!--            <class name="com.tests.AddProductToCompareTest"/>-->
 <!--            <class name="com.tests.AddProductToShoppingCartTest"/>-->
 <!--            <class name="com.tests.ProductHoverMenu"/>-->

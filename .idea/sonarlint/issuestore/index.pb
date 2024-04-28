@@ -76,8 +76,6 @@ Y
 -src/main/java/com/pages/OrderDetailsPage.java,6\2\62f82f6c90e518efbbd7b9ac752ee6780ac959c4
 m
 =src/test/java/com/tests/GuestCheckOutProductFromCartTest.java,6\7\671680703442503c6e82a5c78ff38a527c06a69d
-?
-seleinumTAF.iml,a\4\a47d1276e5d302bf6dd818b1cabeeef0ce5e81ee
 C
 RegressionSuite.xml,1\3\1300ff0e1855b92ea9e60d471ab27e7b292afd92
 w
@@ -103,3 +101,21 @@ Q.idea/sonarlint/securityhotspotstore/9/e/9e583db257e706a2b1f5037f0ae391e10f934f
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 w
 G.idea/sonarlint/issuestore/d/8/d8f50c0c74b4be669974e86a5fc0099ff1f18a87,4\4\4402eec670f10a221db1aaee876a6461917869c7
+…
+Usrc/test/java/com/tests/DataDriven/UserRegistrationTestsWithDdtAndPropertiesFile.java,d\9\d9807cfba1280ad8b6ed55f67463ada79c667894
+C
+src/main/properties,2\b\2b24ec0a1c9ffa59c566d6e5705047ac989a2c4a
+Z
+*src/main/properties/userRegData.properties,f\6\f6b7474a6db78b286579bf9d161cad22779f6885
+|
+Lsrc/test/java/com/tests/DataDriven/UserRegistrationTestsWithDDtAndExcel.java,4\a\4ad02283e5f1f8373d34f51e4b46e288941fca69
+
+Osrc/test/java/com/tests/DataDriven/UserRegistrationTestsWithDdtAndJsonFile.java,f\5\f5d626fd53260703c9d5020412171496cb4e8bac
+S
+#src/test/java/Data/UserRegData.json,b\c\bc16fceee59421be9856d2b3271ea3a2e0b410ba
+[
++src/test/java/Utilities/JsonDataReader.java,f\a\fa2be0adbd8a191d237719cd1be54d126d0753d3
+z
+Jsrc/test/java/com/tests/DataDriven/UserRegistrationTestsWithJavaFaker.java,3\0\304a1ccf3742022ff9d249bb9968104cfe5ddf54
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

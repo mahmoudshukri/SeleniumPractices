@@ -24,6 +24,29 @@
             <version>7.8.0</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>4.1.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.opencsv/opencsv -->
+        <dependency>
+            <groupId>com.opencsv</groupId>
+            <artifactId>opencsv</artifactId>
+            <version>5.7.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>1.0.2</version>
+        </dependency>
 
 
     </dependencies>
@@ -34,9 +57,8 @@
     </properties>
 
 
-
-<!--creating mvn profile-->
-<!--    mvn clean test -Pregression-->
+    <!--creating mvn profile-->
+    <!--    mvn clean test -Pregression-->
     <profiles>
         <profile>
             <id>regression</id>
@@ -71,7 +93,6 @@
 
         </profile>
     </profiles>
-
 
 
     <build>

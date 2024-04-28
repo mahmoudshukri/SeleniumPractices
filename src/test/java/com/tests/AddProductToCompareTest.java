@@ -1,7 +1,6 @@
 package com.tests;
 
 import com.pages.ComparePage;
-import com.pages.HomePage;
 import com.pages.ProductDetailsPage;
 import com.pages.SearchPage;
 import org.testng.Assert;
